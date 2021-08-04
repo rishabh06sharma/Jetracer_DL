@@ -136,7 +136,6 @@ def deploy(steering_model_path, throttle_model_path, throttle_gain, image_sampli
 
 
 if __name__ == '__main__':
-    # input: train,throttle,steering,s_gain
     image_sampling_rate = 5
     throttle_gain = 1.2
     steering_model_path = "steer_set3_12ep_100_0.001_rsz_pt4.pth"
